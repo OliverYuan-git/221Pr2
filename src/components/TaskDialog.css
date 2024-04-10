@@ -1,0 +1,36 @@
+
+.task-dialog {
+    min-width: 300px; 
+    max-width: 600px; 
+    width: auto; 
+    margin: auto;
+  }
+  
+
+  .dialog-input {
+    margin-bottom: 20px; 
+  }
+  
+  .dialog-actions {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px; 
+  }
+  
+
+  .error-message {
+    color: #f44336; /* Red color for errors */
+    margin-top: 5px; 
+    font-size: 0.8em; 
+  }
+  
+
+  .dialog-button {
+    margin: 5px;
+  }
+  
+  
+  .radio-group {
+    padding: 0 10px; 
+  }
+  

@@ -1,0 +1,54 @@
+/* App.css */
+.app-container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px; /* Adjust based on your layout needs */
+    background-color: #f5f5f5; /* Light grey background */
+  }
+  
+  /* Styling for the AppBar component, if needed */
+  .app-bar {
+    background-color: #1976d2; /* Example color */
+    color: #ffffff;
+  }
+  
+  /* Generic button styles */
+  .button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button-danger {
+    background-color: #f44336; /* Red */
+  }
+  
+  .button-primary {
+    background-color: #2196f3; /* Blue */
+  }
+  
+  /* Task table styles */
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-table th, .task-table td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .task-table tr:nth-child(even) {
+    background-color: #e1f5fe; /* Light blue */
+  }
+  
+  
+  
